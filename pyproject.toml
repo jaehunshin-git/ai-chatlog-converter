@@ -1,7 +1,7 @@
 [project]
-name = "personal-ai-agent"
+name = "ai-chatlog-converter"
 version = "0.1.0"
-description = "Add your description here"
+description = "A tool to convert AI chat logs into structured formats for analysis and archiving."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

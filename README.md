@@ -12,7 +12,7 @@ PyPI 배포 전, 아래 방법으로 쉽게 사용할 수 있습니다.
 
 ### Git에서 직접 설치
 ```bash
-pip install "git+https://github.com/jaehunshin-git/personal-ai-agent.git@main"
+pip install "git+https://github.com/jaehunshin-git/ai-chatlog-converter.git@main"
 # 설치 후
 chatlog-convert --help
 ```
