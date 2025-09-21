@@ -1,0 +1,39 @@
+[
+  {
+    "conversation_index": 0,
+    "title": "API 대화 기록 불러오기",
+    "messages": [
+      {
+        "index": 0,
+        "author": "user",
+        "text": "사용자의 chatgpt 대화기록 을 모두 참조해서 가져올수있는 api 를 openai는 제공하나 ?"
+      },
+      {
+        "index": 1,
+        "author": "ChatGPT",
+        "text": "OpenAI는 사용자의 ChatGPT 대화 기록 전체를 가져오는 API는 제공하지 않는다. ..."
+      },
+      {
+        "index": 2,
+        "author": "user",
+        "text": "그러면 roast me prompt 와 같이 내 채팅기록 전체를 다시 md 파일로 작성해주는 방식은 가능한가"
+      }
+    ]
+  },
+  {
+    "conversation_index": 1,
+    "title": "PRD 작성 및 확장 계획",
+    "messages": [
+      {
+        "index": 0,
+        "author": "user",
+        "text": "컴퓨터공학과에서 하는 팀프로젝트나 해커톤, 개발 공모전 같은 활동에서 팀을 구하고 보통 노션을 협업툴로써 사용한다. ..."
+      },
+      {
+        "index": 1,
+        "author": "ChatGPT",
+        "text": "{\"name\": \"project_auto_notion\", \"type\": \"document\", \"content\": \"# Product Requirement Document ...\"}"
+      }
+    ]
+  }
+]

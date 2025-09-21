@@ -1,0 +1,25 @@
+# Python standard ignores
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+*.so
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.venv/
+
+# VS Code
+.vscode/
+
+# Project artifacts
+uv.lock
+
+# Ignore all generated sample files
+*.html
+*.json
+
+# Keep sample assets tracked
+!input.html
+!scheme.json

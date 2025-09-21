@@ -1,0 +1,24 @@
+[project]
+name = "personal-ai-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    # Runtime dependency used by chatlog_converter.parser
+    "selectolax>=0.3.34,<0.4",
+]
+
+[project.scripts]
+chatlog-convert = "chatlog_converter.cli:main"
+
+[tool.uv]
+# Install this project and expose console scripts defined under [project.scripts]
+package = true
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["chatlog_converter*"]
