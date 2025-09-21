@@ -21,16 +21,16 @@ uv lock --upgrade
 
 ## CLI 사용법
 
-설치 후에는 콘솔 스크립트 `chatlog-convert`가 제공됩니다.
+설치 후에는 콘솔 스크립트 `ai-chatlog-converter`가 제공됩니다. (이전 이름 `chatlog-convert`도 호환 별칭으로 동작)
 
 ```bash
-chatlog-convert -i input.html -o out.json
+ai-chatlog-converter -i input.html -o out.json
 ```
 
 긴 옵션도 지원합니다.
 
 ```bash
-chatlog-convert --input input.html --output out.json
+ai-chatlog-converter --input input.html --output out.json
 ```
 
 설치 없이 즉시 실행하고 싶다면 다음 중 하나를 사용하세요.
@@ -43,7 +43,7 @@ python main.py -i input.html -o out.json
 python -m chatlog_converter.cli -i input.html -o out.json
 
 # uv로 바로 실행
-uv run chatlog-convert -i input.html -o out.json
+uv run ai-chatlog-converter -i input.html -o out.json
 ```
 
 ## 라이브러리 사용법 (파이썬 코드에서 import)

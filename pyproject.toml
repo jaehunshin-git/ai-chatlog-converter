@@ -10,6 +10,8 @@ dependencies = [
 ]
 
 [project.scripts]
+ai-chatlog-converter = "chatlog_converter.cli:main"
+# (optional) backward compatibility alias; remove in a future major release
 chatlog-convert = "chatlog_converter.cli:main"
 
 [tool.uv]
