@@ -1,4 +1,4 @@
-# personal-ai-agent
+# AI-Chatlog-Converter
 
 대화형 HTML을 JSON(scheme.json 포맷)으로 변환하는 파서/CLI를 포함한 예제 프로젝트입니다.
 
